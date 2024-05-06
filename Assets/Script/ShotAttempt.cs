@@ -30,7 +30,7 @@ public class ShotAttempt : MonoBehaviour
         else if (collision.collider.CompareTag("Rim") && !gameEnded)
         {
             // beat  level
-            string levelCompleteMessage = "Level Completed - Ball touched the rim!";
+            string levelCompleteMessage = "Level Completed - You made the shot!";
             Debug.Log(levelCompleteMessage);
             gameEnded = true;
             // displays game over text on canvas

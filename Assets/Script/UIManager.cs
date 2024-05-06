@@ -3,16 +3,9 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
-    public TextMeshProUGUI gameOverText; // Reference to the TextMeshProUGUI component for displaying game over text
+    public TextMeshProUGUI gameOverText; 
     public TMP_InputField inputField;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        // Hide the game over text at the start of the game
-        // gameOverText.gameObject.SetActive(false);
-    }
-
+    
     // Display the game over text with the specified message
     public void ShowGameOverText(string gameOverMessage)
     {
